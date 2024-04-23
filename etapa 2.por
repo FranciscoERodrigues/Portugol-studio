@@ -4,9 +4,14 @@ programa
 	funcao inicio()
 	{
 
-		cadeia nome="Francisco"
+		cadeia nome
 
-		escreva("Olá ",nome)
+		escreva("Escreva seu nome: ")
+		leia(nome)
+
+		escreva("ola "+ nome )
+		
+		
 
 	
 	}
