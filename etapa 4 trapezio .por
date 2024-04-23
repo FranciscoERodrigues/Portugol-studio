@@ -31,16 +31,18 @@ programa
 	{
 		escreva("Area do trapezio!\n")
 
-		inteiro basemaior, basemenor,altura, resultado
+		inteiro basemaior, basemenor, h
 
-          escreva("informe a altura do trapezio:")
-          leia(altura)
+    
 		escreva("informe a basemaior do trapezio:")
 		leia(basemaior)
 		escreva("informe a basemenor do trapezio:")
 		leia(basemenor)
+    escreva("informe a h do trapezio:")
+    leia(h)
 		
-		escreva("o valor da base é maior:"+basemenor*altura/2 )
+		escreva ("o valor da base é maior:"+basemenor+basemaior*h/2)
+
 	} 
 }
 
