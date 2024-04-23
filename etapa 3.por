@@ -3,11 +3,21 @@ programa
 	
 	funcao inicio()
 	{
+		cadeia nome
+
+		inteiro idade
+
+		escreva("Escreva seu nome: ")
+		leia(nome)
+
+		escreva("ola "+ nome )
+		escreva ("\nqual a sua idade?")
 		
-		cadeia nome="Francisco"
-		inteiro idade= 25
-		
-		escreva("Olá, ",nome, " sua idade é ", idade)
+
+		escreva("Escreva sua idade: ")
+		leia(idade)
+
+		escreva ("ola "+ nome) escreva("a sua idade é "+ idade)
 	}
 }
 /* $$$ Portugol Studio $$$ 
