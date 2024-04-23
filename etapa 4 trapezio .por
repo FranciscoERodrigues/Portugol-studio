@@ -39,8 +39,8 @@ programa
 		leia(basemaior)
 		escreva("informe a basemenor do trapezio:")
 		leia(basemenor)
-		resultado=basemaior+basemenor*altura/2
-		escreva("o valor da trapezio é:resultado")
+		
+		escreva("o valor da base é maior:"+basemenor*altura/2 )
 	} 
 }
 
