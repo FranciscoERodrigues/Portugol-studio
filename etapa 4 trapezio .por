@@ -41,7 +41,7 @@ programa
     escreva("informe a h do trapezio:")
     leia(h)
 		
-		escreva ("o valor da base é maior:"+basemenor+basemaior*h/2)
+		escreva ("o valor da base é maior:"+(basemenor+basemaior)*h/2)
 
 	} 
 }
