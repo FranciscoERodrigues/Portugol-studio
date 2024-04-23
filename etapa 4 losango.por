@@ -29,19 +29,18 @@ programa
 { 
 	funcao inicio () 
 	{
-		escreva("Area do losango!\n")
+			escreva("Area do losango!\n")
 
 		inteiro diagonalmaior, diagonalmenor,resultado
 
-		escreva("informe a diagonalmaior do retangulo:")
+		escreva("informe a diagonalmaior do losango:")
 		leia(diagonalmaior)
-		escreva("informe a diagonalmenor do retangulo:")
+		escreva("informe a diagonalmenor do losango:")
 		leia(diagonalmenor)
 
-		resultado=diagonalmaior*diagonalmenor/2
+    
+		escreva("o valor da losango é:"+diagonalmaior*diagonalmenor/2)
 
-		escreva("o valor da losango é:resultado")
-	} 
 }
 
 /* $$$ Portugol Studio $$$ 
