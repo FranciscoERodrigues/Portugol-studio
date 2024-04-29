@@ -12,7 +12,7 @@ leia(r)
 
 area = pi*(r*r)
 
-escreva("o valor da area do circulo é= " + area + "\nfim do programa")
+escreva("o valor da area do circulo é= " + area )
     
   }
 }
